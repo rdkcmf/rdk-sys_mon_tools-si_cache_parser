@@ -20,7 +20,7 @@ AC_PREREQ([2.68])
 AC_INIT([si_cache_parser], [1.0], [praveenr@tataelxsi.co.in])
 AC_CONFIG_SRCDIR([si_cache_parser_diag.c])
 
-AC_CONFIG_MACRO_DIR([cfg])
+AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_AUX_DIR([cfg])
 AM_INIT_AUTOMAKE([foreign no-dist-gzip dist-bzip2 1.9])
 AC_CONFIG_HEADERS([cfg/config.h])
